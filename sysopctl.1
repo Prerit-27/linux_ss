@@ -1,0 +1,40 @@
+.TH SYSSOPCTL 1 "December 2024" "v0.1.0" "User Commands"
+.SH NAME
+sysopctl \- System operations control tool
+.SH SYNOPSIS
+.B sysopctl
+[\-h] [\--version] [\--help]
+.B sysopctl service list
+.B sysopctl service start <service-name>
+.B sysopctl service stop <service-name>
+.B sysopctl system load
+.B sysopctl disk usage
+.B sysopctl process monitor
+.B sysopctl logs analyze
+.B sysopctl backup <path>
+.SH DESCRIPTION
+sysopctl is a command-line tool designed to manage system services, processes, and resources.
+It provides functionalities for system administration tasks such as starting/stopping services, checking system load, managing disk usage, and monitoring processes.
+.SH OPTIONS
+.IP "\--help"
+Display help message.
+.IP "\--version"
+Display version information.
+.SH COMMANDS
+.IP "service"
+Manage system services.
+.IP "system"
+View system load.
+.IP "disk"
+Check disk usage.
+.IP "process"
+Monitor system processes.
+.IP "logs"
+Analyze system logs.
+.IP "backup"
+Backup system files.
+.SH EXAMPLES
+sysopctl service list
+sysopctl service start apache2
+sysopctl disk usage
+sysopctl process monitor
